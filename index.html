@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buspass</title>
+</head>
+<body>
+    <center>
+    <table border="1" cellspacing="0" cellpadding="10" width="100%">
+        <tr>
+            <td><center>
+                <img src="./tslogo.jpg" width="80" height="80">
+                <p><b>TELANGANA STATE BOARD TRANSPORT CORPORATION</b></p>
+                <p><b>GENERAL BUS PASS APPLICATION</b></p></center>
+            </td>
+        </tr>
+    </table>
+    </center>
+    <fieldset>
+        <legend><b>Applicant Details</b></legend><br>
+        <form>
+            UserName:<input type="text" name="username" minlength="10"><br><br>
+            Father's/Guardian's Name:<input type="text" name="name"><br><br>
+            Date of Birth:<input type="value" name="dateofbirth"><br><br>
+            Age as on:<input type="value" name="age"><br><br>
+            Gender:<input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+            Aadhaar No:<input type="text" name="value"><br><br>
+            Whatsapp No:<input type="value" pattern=".{10}"><br><br>
+            Gmail:<input type="text" name="gmail"><br><br>
+            Photo:<input type="file" name="files" multiple><br><br>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend><b>Residential Address Details</b></legend>
+        <form>
+           <p>Applicant's Address:
+           <textarea rows="5" columns="20"></textarea></p><br><br>
+           District:<select name="districts">
+            <option name="-------select------">--------select--------</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="karimnagar">karimnagar</option>
+            <option value="nizambad">nizambad</option>
+           </select><br><br>
+           Mandal:<select name="mandals">
+            <option name="------select-----">--------select------</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="karimnagar">karimnagar</option>
+            <option value="nizambad">nizambad</option>
+           </select><br><br>
+           Village:<select name="village">
+            <option name="-----select-----">-------select-----</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="karimnagar">karimnagar</option>
+            <option value="nizambad">nizambad</option>
+           </select><br><br>
+           pincode:<input type="value" id="number" maxlength="6" size="6">
+        </form>
+        <br>
+    </fieldset>
+        <fieldset>
+            <legend><b>Type Details</b></legend><br>
+            <form>
+               City:<select name="cities">
+                <option name="---select---">--------select------</option>
+                <option name="Hyderabad">Hyderabad</option>
+                <option name="karimnagar">Karimnagar</option>
+                <option name="nizambad">Nizambad</option>
+               </select><br><br>
+              Pass Type: <select name="passtype">
+                <option name="select">---------------------select---------------------</option>
+                <option name="greater pass">GREATER PASS</option>
+                <option name="general ordinary route pass MTLY">GENERAL ORDINARY ROUTE PASS MTLY</option>
+                <option name="general metro express route pass mtly ">GENERAL METRO EXPRESS ROUTE PASS MTLY</option>
+              </select>
+            </form>
+            <br>
+        </fieldset>
+    <fieldset>
+        <legend><b>Mode Of Payment & Pass Collection</b></legend><br>
+        <form>
+            Payment Mode:<select name="payment">
+           <option value="-----select----">---------select payment mode-----------</option>
+           <option value="payment at counter">Payment at Counter</option></select><br><br>
+           Pass Delivery Mode:<select name="pass delivery mode">
+            <option name="-----select----">---------select pass Delivery Mode------------</option>
+            <option name="rtc abids hyderabad">RTC ABIDS HYDERABAD</option>
+            <option name="rtc airport hyd">RTC AIRPORT HYDERABAD</option></select><br><br>
+            Center at which you want to collect pass:<select name="collect pass">
+                <option value="-------select------">---------------select-------------</option>
+                <option value="at counter">At Counter</option>
+            </select>
+        </form>
+    </fieldset>
+    <br>
+    <center><img src="./abc.jpg.png" width="250"><br><br>
+    <form>
+        <input type="text">
+    </form>
+    <br>
+    <input type="submit" value="Submit">
+    </center>
+    
+</body>
+</html>
